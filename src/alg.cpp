@@ -12,10 +12,7 @@ int cbinsearch(int* arr, int size, int value) {
         }
         if (arr[srednee] < value) {
             leftarea = srednee + 1;
-        }
-        else {
-            rightarea = srednee - 1;
-        }
+        } else { rightarea = srednee - 1; }
     }
     if (index != -2) {
         int point = index;
